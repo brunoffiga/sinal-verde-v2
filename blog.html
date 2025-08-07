@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Sinal Verde - Tendências e Dicas Paralegais no Mercado Corporativo</title>
+    <meta name="description" content="Artigos, guias e novidades sobre legislação e gestão paralegal. Conteúdo especializado para departamentos jurídicos e empresários.">
+    <meta name="keywords" content="blog paralegal, artigos jurídicos, compliance empresarial, regularização, dicas paralegais">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2316a34a'/%3E%3Cpath d='M30 50 L45 65 L70 35' stroke='white' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/blog.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 100 100">
+                        <rect width="100" height="100" rx="20" fill="#16a34a"/>
+                        <path d="M30 50 L45 65 L70 35" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>SINAL VERDE</span>
+                    <small>ASSESSORIA</small>
+                </div>
+                
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Segmentos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="segmentos/grupos-economicos.html">
+                                    <i class="fas fa-building"></i>
+                                    <div>
+                                        <strong>Grupos Econômicos</strong>
+                                        <small>Soluções para grandes corporações</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="segmentos/escritorios-advocacia.html">
+                                    <i class="fas fa-balance-scale"></i>
+                                    <div>
+                                        <strong>Escritórios de Advocacia</strong>
+                                        <small>Apoio paralegal especializado</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="segmentos/incorporadoras.html">
+                                    <i class="fas fa-city"></i>
+                                    <div>
+                                        <strong>Incorporadoras Imobiliárias</strong>
+                                        <small>Regularização e licenciamento</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="segmentos/empresas.html">
+                                    <i class="fas fa-briefcase"></i>
+                                    <div>
+                                        <strong>Empresas em Geral</strong>
+                                        <small>Serviços para todos os portes</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="area-cliente.html" class="btn-area-cliente">Área do Cliente</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Blog Sinal Verde</h1>
+                <p>Insights, tendências e dicas para manter sua empresa sempre em conformidade</p>
+                
+                <div class="blog-search">
+                    <input type="text" placeholder="Buscar artigos..." class="search-input">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="categories-scroll">
+                <button class="category-tag active" data-category="all">Todos</button>
+                <button class="category-tag" data-category="compliance">Compliance</button>
+                <button class="category-tag" data-category="legislacao">Legislação</button>
+                <button class="category-tag" data-category="licencas">Licenças</button>
+                <button class="category-tag" data-category="societario">Societário</button>
+                <button class="category-tag" data-category="tutorial">Tutoriais</button>
+                <button class="category-tag" data-category="mercado">Mercado</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="featured-article">
+                <div class="featured-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <span class="featured-badge">Destaque</span>
+                </div>
+                <div class="featured-content">
+                    <div class="article-meta">
+                        <span class="category">Compliance</span>
+                        <span class="date">15 de Janeiro, 2024</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 8 min de leitura</span>
+                    </div>
+                    <h2>Nova Lei de Compliance 2024: O que muda para grandes empresas</h2>
+                    <p>As mudanças regulatórias de 2024 trazem novos desafios e oportunidades para grupos econômicos. Entenda como se adequar às novas exigências e transformar compliance em vantagem competitiva.</p>
+                    <a href="blog/artigo.html" class="btn btn-primary">
+                        Ler Artigo Completo <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="blog-grid-section">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- Main Articles -->
+                <div class="articles-grid">
+                    <!-- Article 1 -->
+                    <article class="blog-card" data-category="licencas">
+                        <div class="card-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-file-certificate"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="article-meta">
+                                <span class="category">Licenças</span>
+                                <span class="date">12 de Janeiro, 2024</span>
+                            </div>
+                            <h3>Guia Completo: AVCB para Incorporadoras</h3>
+                            <p>Passo a passo atualizado para obtenção do Auto de Vistoria do Corpo de Bombeiros. Evite multas e embargos com nossa checklist especializada.</p>
+                            <div class="card-footer">
+                                <span class="read-time"><i class="fas fa-clock"></i> 5 min</span>
+                                <a href="blog/artigo.html" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="blog-card" data-category="societario">
+                        <div class="card-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-gavel"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="article-meta">
+                                <span class="category">Societário</span>
+                                <span class="date">10 de Janeiro, 2024</span>
+                            </div>
+                            <h3>Holding Familiar: Proteção Patrimonial em 2024</h3>
+                            <p>Como estruturar uma holding familiar de forma eficiente. Benefícios fiscais, sucessórios e os erros mais comuns a evitar.</p>
+                            <div class="card-footer">
+                                <span class="read-time"><i class="fas fa-clock"></i> 7 min</span>
+                                <a href="blog/artigo.html" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="blog-card" data-category="legislacao">
+                        <div class="card-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="article-meta">
+                                <span class="category">Legislação</span>
+                                <span class="date">8 de Janeiro, 2024</span>
+                            </div>
+                            <h3>Marco Legal das Startups: Oportunidades para Escritórios</h3>
+                            <p>Como escritórios de advocacia podem aproveitar as mudanças do Marco Legal das Startups para expandir sua carteira de clientes.</p>
+                            <div class="card-footer">
+                                <span class="read-time"><i class="fas fa-clock"></i> 6 min</span>
+                                <a href="blog/artigo.html" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 4 -->
+                    <article class="blog-card" data-category="tutorial">
+                        <div class="card-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="article-meta">
+                                <span class="category">Tutorial</span>
+                                <span class="date">5 de Janeiro, 2024</span>
+                            </div>
+                            <h3>Digitalização de Processos: ROI em 90 dias</h3>
+                            <p>Case real: como reduzimos 70% do tempo gasto em processos burocráticos com automação inteligente.</p>
+                            <div class="card-footer">
+                                <span class="read-time"><i class="fas fa-clock"></i> 10 min</span>
+                                <a href="blog/artigo.html" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 5 -->
+                    <article class="blog-card" data-category="mercado">
+                        <div class="card-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="article-meta">
+                                <span class="category">Mercado</span>
+                                <span class="date">3 de Janeiro, 2024</span>
+                            </div>
+                            <h3>Tendências 2024: O Futuro dos Serviços Paralegais</h3>
+                            <p>IA, blockchain e outras tecnologias que estão revolucionando o setor jurídico. Prepare sua empresa para o futuro.</p>
+                            <div class="card-footer">
+                                <span class="read-time"><i class="fas fa-clock"></i> 8 min</span>
+                                <a href="blog/artigo.html" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Article 6 -->
+                    <article class="blog-card" data-category="compliance">
+                        <div class="card-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="article-meta">
+                                <span class="category">Compliance</span>
+                                <span class="date">28 de Dezembro, 2023</span>
+                            </div>
+                            <h3>LGPD para Incorporadoras: Checklist Completo</h3>
+                            <p>Proteja dados de clientes e evite multas milionárias. Guia prático com templates e procedimentos essenciais.</p>
+                            <div class="card-footer">
+                                <span class="read-time"><i class="fas fa-clock"></i> 12 min</span>
+                                <a href="blog/artigo.html" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="blog-sidebar">
+                    <!-- Newsletter -->
+                    <div class="sidebar-widget newsletter-widget">
+                        <h3><i class="fas fa-envelope"></i> Newsletter Exclusiva</h3>
+                        <p>Receba insights semanais sobre mudanças regulatórias e dicas de compliance</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Seu melhor e-mail" required>
+                            <button type="submit" class="btn btn-primary btn-block">Assinar Grátis</button>
+                        </form>
+                        <small>Cancele quando quiser. Sem spam.</small>
+                    </div>
+
+                    <!-- Popular Posts -->
+                    <div class="sidebar-widget">
+                        <h3><i class="fas fa-fire"></i> Mais Lidos</h3>
+                        <div class="popular-posts">
+                            <a href="blog/artigo.html" class="popular-post">
+                                <span class="post-number">1</span>
+                                <div>
+                                    <h4>Como reduzir custos com regularização em 2024</h4>
+                                    <span class="post-views">2.4k visualizações</span>
+                                </div>
+                            </a>
+                            <a href="blog/artigo.html" class="popular-post">
+                                <span class="post-number">2</span>
+                                <div>
+                                    <h4>Erros fatais na abertura de filiais</h4>
+                                    <span class="post-views">1.8k visualizações</span>
+                                </div>
+                            </a>
+                            <a href="blog/artigo.html" class="popular-post">
+                                <span class="post-number">3</span>
+                                <div>
+                                    <h4>Certidões negativas: prazos e segredos</h4>
+                                    <span class="post-views">1.5k visualizações</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Download Guide -->
+                    <div class="sidebar-widget download-widget">
+                        <div class="download-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h3>Guia Gratuito</h3>
+                        <h4>Manual de Regularização Empresarial 2024</h4>
+                        <p>50 páginas com checklists, templates e prazos atualizados</p>
+                        <button class="btn btn-primary btn-block">
+                            <i class="fas fa-file-pdf"></i> Baixar PDF Grátis
+                        </button>
+                    </div>
+
+                    <!-- Tags -->
+                    <div class="sidebar-widget">
+                        <h3><i class="fas fa-tags"></i> Tags Populares</h3>
+                        <div class="tags-cloud">
+                            <a href="#" class="tag">LGPD</a>
+                            <a href="#" class="tag">Compliance</a>
+                            <a href="#" class="tag">AVCB</a>
+                            <a href="#" class="tag">Junta Comercial</a>
+                            <a href="#" class="tag">Holding</a>
+                            <a href="#" class="tag">Licenças</a>
+                            <a href="#" class="tag">ISS</a>
+                            <a href="#" class="tag">Certidões</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn" disabled><i class="fas fa-chevron-left"></i></button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <span class="page-dots">...</span>
+                <button class="page-btn">12</button>
+                <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="blog-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Precisa de ajuda com algum processo?</h2>
+                <p>Nossa equipe está pronta para transformar conhecimento em ação</p>
+                <div class="cta-buttons">
+                    <a href="contato.html" class="btn btn-white">
+                        <i class="fas fa-comments"></i> Falar com Especialista
+                    </a>
+                    <a href="servicos.html" class="btn btn-secondary">
+                        <i class="fas fa-clipboard-list"></i> Ver Serviços
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 100 100">
+                            <rect width="100" height="100" rx="20" fill="#16a34a"/>
+                            <path d="M30 50 L45 65 L70 35" stroke="white" stroke-width="6" fill="none" stroke-linecap='round' stroke-linejoin='round'/>
+                        </svg>
+                        <div>
+                            <span>SINAL VERDE</span>
+                            <small>ASSESSORIA</small>
+                        </div>
+                    </div>
+                    <p>Especialistas em assessoria paralegal e serviços burocráticos. Mais de 15 anos desburocratizando negócios brasileiros com excelência e agilidade.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Nossos Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html#licencas">Emissão de Licenças</a></li>
+                        <li><a href="servicos.html#inscricoes">Inscrições Municipais</a></li>
+                        <li><a href="servicos.html#atos">Atos Societários</a></li>
+                        <li><a href="servicos.html#junta">Junta Comercial</a></li>
+                        <li><a href="servicos.html#cartoriais">Serviços Cartoriais</a></li>
+                        <li><a href="servicos.html#consultoria">Consultoria Empresarial</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> (11) 93662-1755</li>
+                        <li><i class="fas fa-envelope"></i> contato@sinalverdeassessoria.com.br</li>
+                        <li><i class="fas fa-clock"></i> Seg à Sex: 8h às 18h<br>Sábado: 8h às 12h</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>SINAL VERDE APOIO ADMINISTRATIVO LTDA - CNPJ: 56.393.414/0001-82</p>
+                    <p>&copy; 2024 Sinal Verde Assessoria. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="politica-privacidade.html">Política de Privacidade</a>
+                    <a href="termos-uso.html">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/5511936621755" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
